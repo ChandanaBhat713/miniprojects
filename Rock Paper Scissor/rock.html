@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="paper.css" />
+    <script src="scissor.js"></script>
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <div class="rps">
+      <h1>Rock Paper Scissor</h1>
+      <div id="game">
+        <div id="userchoice" class="choice">
+          <h3>Your choice</h3>
+          <input
+            type="image"
+            src="image_rockprocessing20200424-23052-1nvyd1d.png"
+            name="Rock"
+            onclick="result('Rock')"
+          />
+          <input
+            type="image"
+            src="image_scissorprocessing20200424-23052-1nvyd1d.png"
+            name="Paper"
+            onclick="result('Paper')"
+          />
+          <input
+            type="image"
+            src="image_paperprocessing20200424-23052-1nvyd1d.png"
+            name="Scissor"
+            onclick="result('Scissor')"
+          />
+        </div>
+        <div id="computer_choice" class="choice">
+          <h3>Computer choice</h3>
+          <p id="computerchoice"></p>
+        </div>
+        <div>
+          <h2>Result</h2>
+          <p id="result"></p>
+        </div>
+        <div>
+          <p id="user_score"></p>
+          <br />
+          <p id="computer_score"></p>
+        </div>
+        <div>
+          <button onclick="restartgame">Restart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
