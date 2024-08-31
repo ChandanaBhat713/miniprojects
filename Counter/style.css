@@ -1,0 +1,24 @@
+#countlable {
+  font-family: Helvetica;
+  display: block;
+  text-align: center;
+  font-size: 10pc;
+  background-color: burlywood;
+}
+
+#BtnContainer {
+  text-align: center;
+}
+.buttons {
+  padding: 10px 20px;
+  font-size: 150%;
+  border-radius: 100px;
+  color: white;
+  background-color: rgb(14, 126, 146);
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.buttons:hover {
+  background-color: rgb(132, 212, 226);
+}
